@@ -1,15 +1,16 @@
 # slide-1
 
 <img width="834" height="510" alt="image" src="https://github.com/user-attachments/assets/7ce83d9d-c453-42f7-a2f1-aa11f57d27f0" />
-```
+
+<p>
 Packages in Java are like folders in your computer. Imagine if you kept all your project files in a single folder — it would get chaotic. Packages help us group related classes together, making code modular and easy to navigate.
 
 They also prevent class name conflicts. For example, two teams can both create a Student class in different packages (com.college.Student vs com.training.Student) without issues.
 
 Packages also help in access control and versioning, especially in larger enterprise apps.
 
-Lastly, Java uses the package name to mirror folder structure, which makes compilation and build automation smooth. For example, a class in com.example.util must be stored in com/example/util folders
-```
+Lastly, Java uses the package name to mirror folder structure, which makes compilation and build automation smooth. For example, a class in com.example.util must be stored in com/example/util folders </p>
+
 ## Implementation
 
 Great question 👌
