@@ -176,4 +176,75 @@ You can download and use this image for your PPT:
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/af5363e2-dfef-49b5-9709-54a57fef3860" />
 
+Perfect 👌
+Let’s make **Slide 5: Importing Packages and Classes** visually and structurally different from the previous slides to keep the presentation **engaging**.
+
+For this slide, we’ll use a **two-column layout**:
+
+* Left side: concise bullet points on **import types and usage**
+* Right side: **code examples + visual illustration** of import usage
+
+---
+
+# 🟦 **Slide 5: Importing Packages and Classes**
+
+(Updated Style — Split Layout)
+
+**📝 Slide Content (Left Column):**
+
+```
+• Use 'import' to bring external classes/packages into scope  
+• Types of imports:  
+   - Single type import → imports one specific class  
+   - On-demand import → imports all classes from a package  
+   - Static import → allows using static members directly  
+• Classes in the same package don’t require import  
+• Avoid excessive wildcard (*) imports in large projects
+```
+
+---
+
+**💻 Code Example (Right Column):**
+
+```java
+// Single Type Import
+import java.util.List;
+
+// On-Demand Import
+import java.util.*;
+
+// Static Import
+import static java.lang.Math.PI;
+import static java.lang.Math.sqrt;
+
+public class ImportDemo {
+    public static void main(String[] args) {
+        List<String> names = new ArrayList<>();
+        System.out.println("PI = " + PI);
+        System.out.println("√25 = " + sqrt(25));
+    }
+}
+```
+
+---
+
+### 🟨 **Trainer Notes (Explanation):**
+
+> * The **`import`** statement tells Java **where to find classes** that aren’t in the current package.
+> * There are **three main types**:
+>
+>   1. **Single Type Import:** imports one class (e.g., `List`) → clear and preferred for readability.
+>   2. **On-Demand Import:** imports all classes from a package using `*` (e.g., `java.util.*`). It’s fine for quick demos but **not recommended** for production because it can lead to **namespace collisions**.
+>   3. **Static Import:** allows you to use static fields or methods without class prefix — good for `Math` functions, constants, assertions, etc.
+> * If two classes with the **same name** are imported (e.g., `java.util.Date` and `java.sql.Date`), you must use **fully qualified names**.
+> * No import is needed for **classes in the same package** or for `java.lang` (e.g., `String`, `Math`, `System`).
+>
+> 👉 This slide is a great place to **do a live coding demo** to show how static imports make code cleaner.
+
+---
+
+
+---
+
+
 
