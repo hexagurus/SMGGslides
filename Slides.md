@@ -88,3 +88,92 @@ Hello, Students! Welcome to Java Packages.
 ---
 ---
 
+
+---
+
+# 🟦 **Slide 4: Defining Packages**
+
+**Slide Title:**
+
+> **Defining Packages**
+
+**Slide Body (PPT Content):**
+
+```
+• Use the 'package' keyword — must be the first statement in the file  
+• Package name should follow reverse domain naming convention  
+• One public class per file; file name = class name  
+• Directory structure must mirror the package name  
+• Helps organize classes logically
+```
+
+---
+
+### 🟨 **Trainer Notes (Explanation):**
+
+> * Packages are **defined using the `package` keyword** at the top of the `.java` file — this is mandatory.
+> * **Naming convention:** Java uses the **reverse domain name** (e.g., `com.example.project`) to ensure global uniqueness. This avoids name clashes between organizations.
+> * Only **one public class** per file is allowed, and **the file name must match** the class name exactly (case-sensitive).
+> * The **folder structure must mirror** the package name — this is how the compiler knows where to find classes.
+> * Example:
+>
+>   ```java
+>   package com.college.students;
+>   public class Student { ... }
+>   ```
+>
+>   must be stored in `com/college/students/Student.java`.
+> * Defining packages correctly is the foundation for **importing**, **classpath**, and **access control**.
+
+💡 *Tip:* Draw a small diagram of a folder tree to help students visualize package paths vs. package names.
+
+---
+
+### 🧪 **Mini Implementation Example**
+
+**File:** `src/com/demo/utils/Printer.java`
+
+```java
+package com.demo.utils;
+
+public class Printer {
+    public static void printMessage() {
+        System.out.println("Package defined successfully!");
+    }
+}
+```
+
+**File:** `src/com/demo/Main.java`
+
+```java
+package com.demo;
+
+import com.demo.utils.Printer;
+
+public class Main {
+    public static void main(String[] args) {
+        Printer.printMessage();
+    }
+}
+```
+
+---
+
+### 📸 **Suggested Visual:**
+
+Here’s a clean, attractive image that fits this slide (package definition / folder structure concept):
+
+![Defining Packages](sandbox:/mnt/data/A_PowerPoint_slide_titled_"Introduction_to_Package.png)
+
+➡️ *(I’ll generate a **new image** now that clearly shows folder structure + package keyword concept)*
+
+
+✅ **Slide 4: Defining Packages** is ready with detailed content, trainer notes, a mini code example, and a clean visual.
+You can download and use this image for your PPT:
+👉 [Defining Packages Slide Image](sandbox:/mnt/data/A_PowerPoint_slide_displays_information_on_definin.png)
+
+---
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/af5363e2-dfef-49b5-9709-54a57fef3860" />
+
+
